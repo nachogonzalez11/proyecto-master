@@ -1,0 +1,91 @@
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* propiedades del contenedor */
+
+.contenedor{
+    height: 700px;
+    background-color: tomato;
+    margin: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* propiedades de los hijos */
+
+.hijos{
+    width: 150px;
+    height: 150px;
+    background-color: wheat;
+    margin: 5px;
+}
+
+.uno{
+    background-color: violet;
+}
+
+.dos{
+    background-color: greenyellow
+}
+
+/* estilos de html ejemplo */
+
+body{
+    background-color: thistle;
+}
+
+/* estilos de header */
+
+header{
+    background-color: rgb(173, 133, 173);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li{
+    background-color: rgb(129, 81, 129);
+    padding: 10px;
+    color: whitesmoke;
+    text-shadow: 3px 2px 5px black;
+    border-radius: 60px;
+    box-shadow: 3px 2px 5px black;
+}
+
+/* estilos de main */
+
+main{
+    margin: 30px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main .noticia-uno, main .noticia-dos{
+    text-align: center;
+    width: 400px;
+}
+
+footer{
+    background-color: rgb(173, 133, 173);
+}
+
+footer h3{
+    text-align: center;
+}
